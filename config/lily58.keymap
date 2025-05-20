@@ -4,15 +4,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    macros {
-        ctrl_left: ctrl_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "CTRL_LEFT";
-        };
-    };
-
     behaviors {
         swap: swapper {
             compatible = "zmk,behavior-tri-state";
