@@ -13,6 +13,17 @@
         };
     };
 
+    behaviors {
+        swap: swapper {
+            compatible = "zmk,behavior-tri-state";
+            label = "Swapper (Alt+Tab)";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+
+            ignored-key-positions = <24 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -29,7 +40,7 @@
         LOWER {
             bindings = <
 &trans  &trans                &trans                 &trans            &trans             &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PLUS              &kp MINUS              &kp UNDERSCORE    &kp EQUAL          &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&swap   &kp PLUS              &kp MINUS              &kp UNDERSCORE    &kp EQUAL          &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp K_NEXT                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp C_VOL_DN          &kp C_VOL_UP           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp K_PREV  &kp C_PP    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                      &trans            &trans             &trans      &trans      &trans  &trans  &trans  &trans
