@@ -31,21 +31,21 @@
 
         LOWER {
             bindings = <
-&trans  &trans  &trans  &trans  &trans           &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&swap   &trans  &trans  &trans  &trans           &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp K_NEXT                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp C_VOL_DN     &kp K_PREV  &kp C_PP      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans           &trans      &kp ESCAPE    &trans  &mo 3   &trans  &trans
+&trans  &trans  &trans  &trans           &trans           &trans                            &trans  &trans  &trans  &trans  &trans  &trans
+&swap   &trans  &trans  &trans           &trans           &trans                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans           &kp C_VOLUME_UP  &kp K_NEXT                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp PRINTSCREEN  &kp C_VOL_DN     &kp K_PREV  &kp C_PP      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans           &trans           &trans      &kp ESCAPE    &trans  &mo 3   &trans  &trans
             >;
         };
 
         RAISE {
             bindings = <
-&trans  &trans                &trans                 &trans            &trans             &trans                    &trans  &trans    &trans     &trans     &trans     &trans
-&trans  &kp KP_PLUS           &kp KP_SUBTRACT        &kp UNDER         &kp KP_EQUAL       &trans                    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
-&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans                    &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp DOUBLE_QUOTES
-&trans  &mo 3                 &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans    &trans  &trans  &kp HOME  &kp END    &kp LT     &kp GT     &kp QMARK
-                                                     &trans            &trans             &trans  &trans    &trans  &trans  &trans    &trans
+&trans  &trans                &trans                 &trans            &trans             &trans                    &trans  &trans     &trans        &trans     &trans     &trans
+&trans  &kp KP_PLUS           &kp KP_SUBTRACT        &kp UNDER         &kp KP_EQUAL       &trans                    &trans  &kp HOME   &kp UP_ARROW  &kp END    &trans     &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans                    &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &kp COLON  &kp DOUBLE_QUOTES
+&trans  &mo 3                 &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans    &trans  &trans  &kp PG_DN  &kp PG_UP     &kp LT     &kp GT     &kp QMARK
+                                                     &trans            &trans             &trans  &trans    &trans  &trans  &trans     &trans
             >;
         };
 
