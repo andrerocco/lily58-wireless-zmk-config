@@ -31,11 +31,11 @@
 
         LOWER {
             bindings = <
-&trans  &trans           &trans  &trans  &trans      &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans  &trans      &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PRINTSCREEN  &trans  &trans  &kp ESCAPE  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans  &trans      &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans  &trans      &trans  &kp SPACE    &trans  &mo 3   &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans  &trans  &kp ESC  &kp SPACE    &trans  &mo 3   &trans  &trans
             >;
         };
 
