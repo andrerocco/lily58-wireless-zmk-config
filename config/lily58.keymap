@@ -31,11 +31,11 @@
 
         LOWER {
             bindings = <
-&trans  &trans           &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans  &trans  &trans   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans  &trans  &kp ESC  &kp SPACE    &trans  &mo 3   &trans  &trans
+&trans  &trans           &trans     &trans                &trans                 &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans     &kp RIGHT_BRACE       &kp BACKSLASH          &kp PERIOD                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PRINTSCREEN  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &kp PLUS   &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &kp UNDERSCORE  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans                &trans                 &kp ESC         &kp SPACE    &trans  &mo 3   &trans  &trans
             >;
         };
 
