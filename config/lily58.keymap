@@ -21,7 +21,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(LEFT_BRACKET) &kp SPACE>;
-            label = "AUTO_TILDE";
+            label = "Types a tilde";
+        };
+
+        delete_and_spacebar: delete_and_spacebar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DELETE &kp SPACE>;
+            label = "DELETE_AND_SPACEBAR";
         };
     };
 
@@ -40,11 +47,11 @@
 
         LOWER {
             bindings = <
-&trans  &trans           &trans  &trans  &trans  &trans                        &trans  &trans           &trans         &trans           &trans  &trans
-&trans  &trans           &trans  &trans  &trans  &trans                        &trans  &kp RIGHT_BRACE  &kp BACKSLASH  &kp EXCLAMATION  &trans  &trans
-&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans                        &trans  &kp EQUAL        &kp PLUS       &kp MINUS        &trans  &trans
-&trans  &trans           &trans  &trans  &trans  &trans   &trans       &trans  &trans  &trans           &trans         &trans           &trans  &trans
-                                 &trans  &trans  &kp ESC  &kp SPACE    &trans  &mo 3   &trans           &trans
+&trans  &trans           &trans  &trans  &trans  &trans                                     &trans  &trans           &trans         &trans           &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans                                     &trans  &kp RIGHT_BRACE  &kp BACKSLASH  &kp EXCLAMATION  &trans  &trans
+&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &delete_and_spacebar                       &trans  &kp EQUAL        &kp PLUS       &kp MINUS        &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans                &trans       &trans  &trans  &trans           &trans         &trans           &trans  &trans
+                                 &trans  &trans  &kp ESC               &kp SPACE    &trans  &mo 3   &trans           &trans
             >;
         };
 
