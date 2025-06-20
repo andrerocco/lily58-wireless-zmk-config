@@ -31,21 +31,21 @@
 
         LOWER {
             bindings = <
-&trans  &trans           &trans     &trans                &trans                 &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans     &kp RIGHT_BRACE       &kp BACKSLASH          &kp PERIOD                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PRINTSCREEN  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &kp PLUS   &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &kp UNDERSCORE  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans                &trans                 &kp ESC         &kp SPACE    &trans  &mo 3   &trans  &trans
+&trans  &trans           &trans  &trans    &trans     &trans                        &trans  &trans              &trans        &trans  &trans  &trans
+&trans  &trans           &trans  &trans    &trans     &trans                        &trans  &kp LS(LEFT_BRACE)  &kp LS(RBRC)  &trans  &trans  &trans
+&trans  &kp PRINTSCREEN  &trans  &trans    &kp EQUAL  &trans                        &trans  &kp LS(LPAR)        &kp LS(RPAR)  &trans  &trans  &trans
+&trans  &trans           &trans  &kp LBKT  &kp RBKT   &trans   &trans       &trans  &trans  &trans              &trans        &trans  &trans  &trans
+                                 &trans    &trans     &kp ESC  &kp SPACE    &trans  &mo 3   &trans              &trans
             >;
         };
 
         RAISE {
             bindings = <
-&trans  &trans  &trans  &trans                &trans                 &trans                    &trans  &kp C_PREV  &kp C_PP      &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP
-&trans  &trans  &trans  &kp RIGHT_BRACE       &kp BACKSLASH          &trans                    &trans  &kp HOME    &kp UP_ARROW  &kp END     &kp PLUS      &kp EQUAL
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &trans  &kp LEFT    &kp DOWN      &kp RIGHT   &kp PERIOD    &kp DOUBLE_QUOTES
-&trans  &mo 3   &trans  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &trans  &trans    &trans  &trans  &kp PG_DN   &kp PG_UP     &kp LT      &kp GT        &kp QMARK
-                        &trans                &trans                 &trans  &trans    &trans  &trans  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp C_PREV  &kp C_PP      &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp HOME    &kp UP_ARROW  &kp END     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT    &kp DOWN      &kp RIGHT   &trans        &trans
+&trans  &mo 3   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans        &trans      &trans        &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans
             >;
         };
 
