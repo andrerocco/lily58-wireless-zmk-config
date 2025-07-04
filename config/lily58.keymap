@@ -39,11 +39,11 @@
 
         LOWER {
             bindings = <
-&trans  &trans           &trans  &trans  &trans  &trans                                     &trans       &trans             &trans         &trans           &trans     &trans
-&trans  &trans           &trans  &trans  &trans  &trans                                     &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp EXCLAMATION  &trans     &trans
-&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &delete_and_spacebar                       &auto_tilde  &kp EQUAL          &kp PLUS       &kp MINUS        &kp UNDER  &trans
-&trans  &trans           &trans  &trans  &trans  &trans                &trans       &trans  &kp GRAVE    &kp LS(GRAVE)      &trans         &trans           &trans     &trans
-                                 &trans  &trans  &kp ESC               &kp SPACE    &trans  &mo 3        &trans             &trans
+&trans  &trans           &trans      &trans  &trans  &trans                                     &trans       &trans             &trans         &trans           &trans     &trans
+&trans  &trans           &trans      &trans  &trans  &trans                                     &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp EXCLAMATION  &trans     &trans
+&trans  &kp PRINTSCREEN  &kp DELETE  &trans  &trans  &delete_and_spacebar                       &auto_tilde  &kp EQUAL          &kp PLUS       &kp MINUS        &kp UNDER  &trans
+&trans  &trans           &trans      &trans  &trans  &trans                &trans       &trans  &kp GRAVE    &kp LS(GRAVE)      &trans         &kp LT           &kp GT     &trans
+                                     &trans  &trans  &kp ESC               &kp SPACE    &trans  &mo 3        &trans             &trans
             >;
         };
 
