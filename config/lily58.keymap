@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    default_layer = <1>;
+
     macros {
         auto_tilde: auto_tilde {
             compatible = "zmk,behavior-macro";
